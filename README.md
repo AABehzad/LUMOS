@@ -37,7 +37,20 @@ Now, to specify that whenever the inputs change, the output also changes, we use
  Finally, this loop checks all 8 bits and the result of the multiplication puts in the ‘product’ register.
 
 
-???????????????
+       module Multiplier
+    (
+        input wire [7 : 0] operand_1,
+        input wire [7 : 0] operand_2,
+    
+        output reg [15 : 0] product
+    );
+    
+        always @(*)
+        begin
+            product <= operand_1 * operand_2;
+        end
+    endmodule
+
 
 How the multiplier works for a typical example :   
 
