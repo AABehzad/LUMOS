@@ -61,12 +61,12 @@ How the multiplier works for a typical example :
 
 Now we enter the simulation commands in the console:
 
-???????????????
 
 It can be seen that we do not receive any warning from the executor and the multiplier output is correct for all input values, because according to the code written in the ‘LUMOS_Testbench.v’ file, if the result is wrong, we receive a warning.
 
-???????????????
-
+      iverilog -o LUMOS.vvp LUMOS_Testbench.v
+      vvp LUMOS.vvp
+      gtkwave LUMOS.gtkw
 Now we execute the simulation command:
 
 <img src="https://github.com/AABehzad/LUMOS/blob/main/Images/p2.png" alt="Image"  style="vertical-align:middle">
