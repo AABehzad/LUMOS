@@ -41,7 +41,7 @@ Now, to specify that whenever the inputs change, the output also changes, we use
 
 How the multiplier works for a typical example :   
 
-????????????
+<img src="https://github.com/AABehzad/LUMOS/blob/main/Images/p1.png" alt="Image"  style="vertical-align:middle">
 
 Now we enter the simulation commands in the console:
 
