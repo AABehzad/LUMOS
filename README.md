@@ -53,7 +53,7 @@ It can be seen that we do not receive any warning from the executor and the mult
 
 Now we execute the simulation command:
 
-?????????????????
+<img src="https://github.com/AABehzad/LUMOS/blob/main/Images/p2.png" alt="Image" width="85" height="85" style="vertical-align:middle">
 
 It can be seen in the figure that, as stated in the project description, the f0 register has taken the value 1126.295.
 
